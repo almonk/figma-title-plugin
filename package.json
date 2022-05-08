@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@create-figma-plugin/utilities": "^1.9.1",
+    "title": "^3.4.4"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "^1.9.1",
+    "@create-figma-plugin/tsconfig": "^1.9.1",
+    "@figma/plugin-typings": "1.45.0",
+    "typescript": "^4"
+  },
+  "scripts": {
+    "build": "build-figma-plugin --typecheck --minify",
+    "watch": "build-figma-plugin --typecheck --watch"
+  },
+  "figma-plugin": {
+    "editorType": [
+      "figma"
+    ],
+    "id": "title-sh",
+    "name": "Title.sh",
+    "main": "src/main.ts"
+  }
+}
