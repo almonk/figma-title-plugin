@@ -1,6 +1,7 @@
-# Smart Title Case Plugin for Figma
+![](./img/hero.png)
 
-This plugin allows you to run text in Figma through [title](https://github.com/vercel/title).
+
+This plugin allows you to smart title case text nodes in Figma using the [title](https://github.com/vercel/title) module.
 
 ### Installation
 
