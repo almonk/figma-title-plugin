@@ -17,8 +17,8 @@
     "editorType": [
       "figma"
     ],
-    "id": "title-sh",
-    "name": "Title.sh",
+    "id": "smart-title-case",
+    "name": "Smart Title Case",
     "main": "src/main.ts"
   }
 }

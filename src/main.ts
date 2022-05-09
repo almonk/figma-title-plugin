@@ -18,7 +18,7 @@ export default async function () {
 
   setTimeout(() => {
     figma.closePlugin(
-      `Ran Title on ${textNodes.length} Text ${pluralize(
+      `Ran Smart Title Case on ${textNodes.length} Text ${pluralize(
         textNodes.length,
         "Node"
       )}`
